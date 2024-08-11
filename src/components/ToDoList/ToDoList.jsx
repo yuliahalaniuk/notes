@@ -3,6 +3,7 @@ import React from 'react';
 const ToDoList = ({ todos, onDeleteTodo, todoLength, completedTodos }) => (
   <>
     <h1>Notes</h1>
+    <p>Your favourite</p>
     <div>
       <p>Total ToDo: {todoLength}</p>
       <p>Completed ToDo: {completedTodos}</p>
